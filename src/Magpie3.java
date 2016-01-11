@@ -92,9 +92,9 @@ public class Magpie3 {
 			// The last position didn't work, so let's find
 			// the next, if there is one.
 			psn = phrase.indexOf(goal, psn + 1);
-
+			System.out.println(psn, before, after);
 		}
-
+		
 		return -1;
 	}
 

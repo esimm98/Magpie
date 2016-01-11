@@ -13,7 +13,7 @@ public class MagpieRunner3 {
 	 */
 	public static void main(String[] args) {
 		Magpie3 maggie = new Magpie3();
-		System.out.println(maggie.findKeyword("She's my sister", "sister", 0));
+//		System.out.println(maggie.findKeyword("She's my sister", "sister", 0));
 
 		System.out.println(maggie.getGreeting());
 		Scanner in = new Scanner(System.in);
